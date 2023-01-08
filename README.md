@@ -18,7 +18,7 @@ High-risk COVID-19 areas are places where more than 10 cases are discovered with
 
 Since the word "lockdown" can mean a variety of things, I decided to focus on high-risk areas because they are the strictest level of quarantine and lockdown in China.
 
-#### Repository Files
+#### Data Files
 
 The "raw_data" directory includes daily lockdown data that I scraped without any post-processing or data cleaning. The "tidy_data" directory includes the cleaned and reformatted version of the dataset, with the following columns:
 
@@ -56,6 +56,11 @@ I found stray punctuation at the end of some lockdown addresses, like: "新源�
 
 Also, some addresses were bundled together under the same district by semi-colon (note: ；not ; <- first one comes from the Chinese keyboard) instead of listed separately. So I separated those addresses out by splitting the addresses via semi-colon.
 
+### Data Scraping Process
+
+I used Selenium to scrape the two State Council websites. I tried to find historical data on the [Wayback Machine](https://web.archive.org/web/20230000000000*/http://bmfw.www.gov.cn/yqfxdjcx/index.html) but it was very inconsistent and I even struggled to take snapshots of the website when it was still up.
+
+If you're curious about what the two different websites looked like, I have some PDF copies stored in the backup_PDFs directory. Sadly, I wasn't able to PDF all the data for each day. 
 
 ### Mapping with Amap (高德地图)
 
