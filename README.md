@@ -2,7 +2,7 @@
 
 <img src = "https://github.com/xiaoeva/china-last-month-covid-lockdowns/blob/main/lockdown_animation.gif" width = "75%"/>
 
-### Dataset Introduction
+### Dataset Overview
 
 This repository shares official data released by the Chinese government from November 24, 2022 to December 23, 2022 on places designated as 'high-risk' for COVID-19. "High-risk" means residents at those locations must quarantine at home (more on that below). 
 
