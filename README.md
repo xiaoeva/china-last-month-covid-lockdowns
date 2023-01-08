@@ -7,7 +7,7 @@
 This repository shares official data released by the Chinese government from November 24, 2022 to December 23, 2022 on places in China that have been designated as 'high-risk' for COVID-19. "High-risk" means residents at those locations must quarantine at home (more on that below). 
 
 The data was scraped from the following websites:
-* http://bmfw.www.gov.cn/yqfxdjcx/index.html (retired around December 15th)
+* http://bmfw.www.gov.cn/yqfxdjcx/index.html (retired around December 18th)
 * http://bmfw.www.gov.cn/yqfxdjcx/risk.html (retired after December 23rd)
 
 Both are hosted by China's State Council, but the data comes from the National Health Commission (中华人民共和国国家卫生健康委员会). I started scraping the data on November 24th and had to stop December 23rd, because the NHC stopped publishing high-risk areas as the country lifted its zero-covid policy.
@@ -58,9 +58,9 @@ Also, some addresses were bundled together under the same district by semi-colon
 
 ### Data Scraping Process
 
-I used Selenium to scrape the two State Council websites. I tried to find historical data on the [Wayback Machine](https://web.archive.org/web/20230000000000*/http://bmfw.www.gov.cn/yqfxdjcx/index.html) but it was very inconsistent and I even struggled to take snapshots of the website when it was still up.
+I used Selenium to scrape the two State Council websites. I tried to find historical data on the [Wayback Machine](https://web.archive.org/web/20230000000000*/http://bmfw.www.gov.cn/yqfxdjcx/index.html) but it was very inconsistent. The Wayback Machine also struggled to take snapshots of the website even while it was still up.
 
-If you're curious about what the two different websites looked like, I have some PDF copies stored in the backup_PDFs directory. Sadly, I wasn't able to PDF all the data for each day. 
+If you're curious about what the two different websites looked like, I have some PDF copies stored in the backup_PDFs directory. Sadly, I wasn't able to save PDF copies of all the data for each day. 
 
 ### Mapping with Amap (高德地图)
 
