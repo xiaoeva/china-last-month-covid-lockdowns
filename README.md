@@ -1,5 +1,7 @@
 # China's Covid-19 Lockdown Data 
 
+![alt text](https://github.com/xiaoeva/china-last-month-covid-lockdowns/lockdown_animation.gif "China's Last Month of Covid-19 Lockdowns")
+
 ## Dataset Introduction
 
 This repository includes data on areas designated as 'high-risk' for COVID-19 in China from November 24, 2022 to December 23, 2022. The data was scraped from the following URLs:
