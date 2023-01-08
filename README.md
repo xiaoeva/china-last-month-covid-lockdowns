@@ -1,6 +1,6 @@
 # China's Covid-19 Lockdown Data 
 
-![alt text](https://github.com/xiaoeva/china-last-month-covid-lockdowns/lockdown_animation.gif "China's Last Month of Covid-19 Lockdowns")
+![alt text](https://github.com/xiaoeva/china-last-month-covid-lockdowns/lockdown_animation.gif)
 
 ## Dataset Introduction
 
