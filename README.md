@@ -4,7 +4,7 @@
 
 ### Dataset Introduction
 
-This repository shares official data released by the Chinese government from November 24, 2022 to December 23, 2022 on places in China that have been designated as 'high-risk' for COVID-19. "High-risk" means residents at those locations must quarantine at home (more on that below). 
+This repository shares official data released by the Chinese government from November 24, 2022 to December 23, 2022 on places designated as 'high-risk' for COVID-19. "High-risk" means residents at those locations must quarantine at home (more on that below). 
 
 The data was scraped from the following websites:
 * http://bmfw.www.gov.cn/yqfxdjcx/index.html (retired around December 18th)
@@ -44,11 +44,11 @@ Here's some stuff to look out for if you decide to process the raw data yourself
 
 Per day, there shouldn't be any addresses that are repeated but there are, perhaps due to human error when lockdown data is compiled by the National Health Commission.
 
-There are also duplicate addresses that *appear* to be different but are actually identical. This happened a lot and it usually meant there was district-level location data included in the address, for example: 回民区***战备路社区人行小区3号楼*** vs. 战备路社区人行小区3号楼. 
+There are also duplicate addresses that *appear* to be different but are actually identical. This happened a lot and it usually meant there was district-level location data included in the address, for example: 回民区战备路社区人行小区3号楼 vs. 战备路社区人行小区3号楼. 
 
 #### Inconsistent Naming for Provinces
 
-When the first website I scraped was taken down, I switched to the second URL, which was formatted similarly but not identically to the first one. The names of some municipalities and provinces were different, such as 云南 vs. 云南省. 
+When the first website I scraped was taken down, I switched to the second URL, which wasn't formatted in the same way. The names of some municipalities and provinces were different, such as 云南 vs. 云南省. 
 
 #### Punctuation Issues
 
@@ -75,7 +75,6 @@ To map lockdowns on the district level, such as in the animation up top, I used 
 As you can see in the chart above, there's a huge spike in cases on December 2nd. The change mainly comes from Guangdong province which went from 1,969 high-risk areas on December 1st to **7,659** on December 2nd. This was at a time when China was starting to [*loosen*](https://www.nytimes.com/2022/12/01/world/asia/china-covid-protests-restrictions.html) its covid policies though. So what happened?
 
 Instead of listing an entire building as being high-risk, a lot of places in Guangdong began designating specific apartments or stores. So while there were probably fewer places under lockdown, more addresses were being listed as high-risk. I couldn't think of a good way to reflect this in the data, but if you have any ideas, I would love to hear them!
-
 
 
 
