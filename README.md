@@ -76,7 +76,13 @@ As you can see in the chart above, there's a huge spike in cases on December 2nd
 
 Instead of listing an entire building as being high-risk, a lot of places in Guangdong began designating specific apartments or stores. So while there were probably fewer places under lockdown, more addresses were being listed as high-risk. I couldn't think of a good way to reflect this in the data, but if you have any ideas, I would love to hear them!
 
+#### Credits
 
+Here are some of the tools I used to scrape, clean, and visualize:
+* Selenium
+* QGIS
+* tidyverse, lubridate & ggthemr (R packages)
+* ImageMagick
 
 
 
