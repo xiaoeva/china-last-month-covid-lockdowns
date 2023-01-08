@@ -14,7 +14,7 @@ Both are hosted by China's State Council, but the data comes from the National H
 
 #### What does "high risk" (高风险地区) mean?
 
-High-risk COVID-19 areas are places where more than 10 cases are discovered within a 2-week period ([source in Chinese](https://web.archive.org/web/20220308145717/https://www.sc.gov.cn/10462/10464/13722/2021/11/10/d0c69ea270c643578fa1fbc77e4a2272.shtml)). In such areas, residents cannot leave their homes and necessary services are delivered to their door (ex: grocery delivery) ([source in Chinese](https://web.archive.org/web/20220810110632/http://www.gov.cn/fuwu/2022-07/30/content_5703632.htm))
+High-risk COVID-19 areas are places where more than 10 cases are discovered within a 2-week period ([source in Chinese](https://web.archive.org/web/20220308145717/https://www.sc.gov.cn/10462/10464/13722/2021/11/10/d0c69ea270c643578fa1fbc77e4a2272.shtml)). In such areas, residents cannot leave their homes and necessary services are delivered to their door, such as grocery deliveries ([source in Chinese](https://web.archive.org/web/20220810110632/http://www.gov.cn/fuwu/2022-07/30/content_5703632.htm)).
 
 Since the word "lockdown" can mean a variety of things, I decided to focus on high-risk areas because they are the strictest level of quarantine and lockdown in China.
 
