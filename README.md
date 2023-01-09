@@ -62,6 +62,8 @@ I used Selenium to scrape the two State Council websites. I tried to find histor
 
 If you're curious about what the two different websites looked like, I have some PDF copies stored in the backup_PDFs directory. Sadly, I wasn't able to save PDF copies of all the data for each day. 
 
+**Note:** I had some issues with my computer December 15th-17th and ended up having to save PDFs of the website for those days and extracting the data using Tabula later. I then formatted the data to resemble the raw data files I've shared in the raw_data directory. I've included PDFs from those days in the backup_PDFs directory for reference.
+
 ### Mapping with Amap (高德地图)
 
 To map lockdowns on the district level, such as in the animation up top, I used Amap's Point of Interest Web API, which you can find [here](https://lbs.amap.com/api/webservice/guide/api/search). 
@@ -83,6 +85,7 @@ Here are some of the tools I used to scrape, clean, and visualize:
 * QGIS
 * tidyverse, lubridate & ggthemr (R packages)
 * ImageMagick
+* Tabula
 
 
 
